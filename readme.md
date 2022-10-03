@@ -19,6 +19,8 @@ const ErrorFactory = require('error-maker');
 const ValidationError = ErrorFactory.create('ValidationError');
 // ...
 throw new ValidationError('Invalid input');
+// Or you can specify an additional cause
+throw new ValidationError('Invalid input', 'there it goes!');
 ```
 ### Using ES Modules
 ```js
@@ -26,6 +28,8 @@ import ErrorFactory from 'error-maker';
 const ValidationError = ErrorFactory.create('ValidationError');
 // ...
 throw new ValidationError('Invalid input');
+// Or you can specify an additional cause
+throw new ValidationError('Invalid input', 'there it goes!');
 ```
 
 ## Contributing

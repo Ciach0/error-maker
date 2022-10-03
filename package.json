@@ -1,6 +1,6 @@
 {
   "name": "error-maker",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "A simple error maker.",
   "main": "dist/index.js",
   "repository": "https://github.com/Ciach0/error-maker",
@@ -15,7 +15,5 @@
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {
-    "error-maker": "^2.0.3"
-  }
+  "dependencies": {}
 }
